@@ -37,6 +37,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 # Infinite scroll
 # Media
 	## Galleries
+# Print
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -3308,5 +3309,13 @@ article.panel-placeholder {
 	.page-two-column .entry-content blockquote.alignright,
 	.twentyseventeen-front-page .entry-content blockquote.alignright {
 		margin-right: -20%;
+	}
+}
+
+/* Print */
+
+@media print {
+	.navigation-top{
+		display: none;
 	}
 }
